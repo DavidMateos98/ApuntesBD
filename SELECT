@@ -1,6 +1,0 @@
-Una consulta está compuesta por :
-SELECT campo FROM tabla WHERE condición;
-Donde:
-  SELECT: elige el campo o conjunto de ellos que enseñará la tabla resultante.
-  FROM: elige la tabla origen del campo seleccionado.
-  WHERE: en ella irá la condición de nuestra consulta para reducir el número de resultados.
