@@ -1,2 +1,0 @@
-En el from, aparte de elegir la tabla de la que queremos sacar información, podemos relacionar tablas para sacar el conjunto de dos campos.
-Esto se consigue con la instrucción JOIN.
