@@ -1,6 +1,10 @@
  <h1>SQL</h1>
   <h1>Índice</h1>
   <a href="#intro">Introducción</a>
+  <a href="#funsel">Introducción</a>
+  <a href="#funfro">Introducción</a>
+  <a href="#prewhe">Introducción</a>
+  <a href="#otros">Introducción</a>
  
 
  <h2 name="intro">INTRODUCCIÓN</h2>
@@ -19,7 +23,7 @@ WHERE name ="Jose"
 La cual nos sacaría todos los atributos de la tabla "table" donde el nombre sea la cadena "Jose".
 
 
-<h2>FUNCIONES SELECT</h2>
+<h2 name="funsel">FUNCIONES SELECT</h2>
 
 <h3>ROUND</h3>
 
@@ -38,14 +42,14 @@ Son funciones de agregado que permiten devolver una única fila con un recuento,
 Ej:SELECT name,COUNT(years)... GROUP BY (name) haría el recuento de years para cada name.
 
 
-<h2>FUNCIONES FROM</h2>
+<h2 name="funfro">FUNCIONES FROM</h2>
 
 <h3>JOIN</h3>
 
 
 
 
-<h2>PREDICADOS WHERE</h2>
+<h2 name="prewhe">PREDICADOS WHERE</h2>
 
  <h3>IN</h3>
  
@@ -68,7 +72,7 @@ Ej: WHERE population BETWEEN 2000 AND 2500; nos devuelve las tuplas cuya poblaci
 AND nos obliga a la presencia de los dos valores, mientras que OR solo precisa la presencia de uno de ellos.
 
 
-<h2>OTROS PREDICADOS</h2>
+<h2 name="otros">OTROS PREDICADOS</h2>
 
 
 <h3>ORDER BY</h3> 
