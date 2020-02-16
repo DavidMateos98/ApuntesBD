@@ -14,15 +14,7 @@ FROM table
 WHERE name ="Jose"
 La cual nos sacaría todos los atributos de la tabla "table" donde el nombre sea Jose.
 
-SELECT
-
-FROM
-
-WHERE
-
 LIKE
 
-HAVING
-
-IS
-
+Nos permite asignar al predicado una expresión regular, como por ej:
+WHERE name LIKE '%s%' lo cual nos sacaría todos los nombres que contengan la letra "s".
