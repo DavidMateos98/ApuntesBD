@@ -15,6 +15,10 @@ FROM table
 WHERE name ="Jose"
 La cual nos sacaría todos los atributos de la tabla "table" donde el nombre sea la cadena "Jose".
 
+
+
+
+
 PREDICADOS FROM
 
 
@@ -52,6 +56,17 @@ REPLACE
 Su expresión es REPLACE(f, s1, s2), donde toda la cadena s1 del campo f es reewmplazada por s2. Ej:
  REPLACE(name, 'a','') cambia todas las letras "a" de name por nada, por lo que eliminaría todas las letras a minúsculas de name.
  
+ AS
+ 
+AS renombra el campo que selecciona.
+Ej: SELECT name AS 'nombre';
+
+CONCAT 
+
+Permite unir dos o más cadenas o campos. 
+Ej:
+CONCAT(name,' city') añadiría a todos los nombres de las ciudades la cadena " city"
+
 
 
 
