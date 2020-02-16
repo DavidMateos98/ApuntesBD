@@ -25,9 +25,9 @@
 
 <h2 name="funsel">FUNCIONES SELECT</h2>
 
-  <a href="#round">Introducción</a><br>
-  <a href="#distinct">Funciones SELECT</a><br>
-  <a href="#count">Funciones FROM</a><br>
+  <a href="#round">ROUND</a><br>
+  <a href="#distinct">DISTINCT</a><br>
+  <a href="#count">COUNT</a><br>
 
 <h3 name="round">ROUND</h3>
 
@@ -59,9 +59,9 @@ JOIN por defecto crearía el predicado INNER JOIN, pero existe INNER,LEFT y RIGH
 
 <h2 name="prewhe">PREDICADOS WHERE</h2>
 
-  <a href="#in">Introducción</a><br>
-  <a href="#like">Funciones SELECT</a><br>
-  <a href="#between">Funciones FROM</a><br>
+  <a href="#in">IN</a><br>
+  <a href="#like">LIKE</a><br>
+  <a href="#between">BETWEEN</a><br>
   
  <h3 name="in">IN</h3>
  
@@ -86,11 +86,11 @@ AND nos obliga a la presencia de los dos valores, mientras que OR solo precisa l
 
 <h2 name="otros">OTROS PREDICADOS</h2>
 
-  <a href="#orderby">Introducción</a><br>
-  <a href="#replace">Funciones SELECT</a><br>
-  <a href="#as">Funciones FROM</a><br>
-   <a href="#concat">Introducción</a><br>
-  <a href="#having">Funciones SELECT</a><br>
+  <a href="#orderby">ORDER BY</a><br>
+  <a href="#replace">REPLACE</a><br>
+  <a href="#as">AS</a><br>
+   <a href="#concat">CONCAT</a><br>
+  <a href="#having">HAVING</a><br>
 
 
 <h3 name="orderby">ORDER BY</h3> 
