@@ -1,26 +1,26 @@
  <h1>SQL</h1>
   <h1>Índice</h1>
-  <a href="#intro">Introducción</a>
+  <a href="#intro">Introducción</a><br>
   <a href="#funsel">Funciones SELECT</a><br>
   <a href="#funfro">Funciones FROM</a><br>
-  <a href="#prewhe">Predicados WHERE</a>
-  <a href="#otros">Otros predicados</a>
+  <a href="#prewhe">Predicados WHERE</a><br>
+  <a href="#otros">Otros predicados</a><br>
  
 
  <h2 name="intro">INTRODUCCIÓN</h2>
  
-Una consulta está compuesta por :
-SELECT campo FROM tabla WHERE condición;
-Donde:
-  SELECT: elige el campo o conjunto de ellos que enseñará la tabla resultante.
-  FROM: elige la tabla origen del campo seleccionado.
-  WHERE: en ella irá la condición de nuestra consulta para reducir el número de resultados.
-  
-Existe otro tipo de predicados los cuales veremos más adelante, pero una consulta sencilla y básica sería:
-SELECT *
-FROM table
-WHERE name ="Jose"
-La cual nos sacaría todos los atributos de la tabla "table" donde el nombre sea la cadena "Jose".
+ Una consulta está compuesta por :
+ SELECT campo FROM tabla WHERE condición;
+ Donde:
+   SELECT: elige el campo o conjunto de ellos que enseñará la tabla resultante.
+   FROM: elige la tabla origen del campo seleccionado.
+   WHERE: en ella irá la condición de nuestra consulta para reducir el número de resultados.
+
+ Existe otro tipo de predicados los cuales veremos más adelante, pero una consulta sencilla y básica sería:
+ SELECT *
+ FROM table
+ WHERE name ="Jose";
+ La cual nos sacaría todos los atributos de la tabla "table" donde el nombre sea la cadena "Jose".
 
 
 <h2 name="funsel">FUNCIONES SELECT</h2>
@@ -45,6 +45,10 @@ Ej:SELECT name,COUNT(years)... GROUP BY (name) haría el recuento de years para 
 <h2 name="funfro">FUNCIONES FROM</h2>
 
 <h3>JOIN</h3>
+
+JOIN nos permite la unión de dos tablas para trabajar con atributos conjuntos.Al crear un JOIN es necesario igualar la clave principal de la primera tabla con el campo correspondiente al valor de la segunda tabla. Esto se hace mediante el predicado ON. de forma que un ejemplo de un JOIN sería:
+FROM game JOIN goal ON (game.id= goal.matchid);
+JOIN por defecto crearía el predicado INNER JOIN, pero existe INNER,LEFT y RIGHT JOIN para elegir, respectivamente, los atributos en común entre las dos tablas, los atributos que no contenga la segunda tabla pero sí la primera y los atributos que no contenga la primera tabla pero sí la segunda.
 
 
 
