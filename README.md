@@ -1,8 +1,9 @@
  <h1>SQL</h1>
   <h1>Índice</h1>
-  <a href="intro">Introducción</a>
+  <a href="#intro">Introducción</a>
  
 
+ <h2 name="intro">INTRODUCCIÓN</h2>
  
 Una consulta está compuesta por :
 SELECT campo FROM tabla WHERE condición;
@@ -25,7 +26,7 @@ La cual nos sacaría todos los atributos de la tabla "table" donde el nombre sea
 En ROUND (f,d) Arredondea la unidad f al numero d de décimas.
 Ej: ROUND(250000/240,2) nos ejecutaría la división con dos decimales visibles.
 
- <h2 name="intro">INTRODUCCIÓN</h2>
+ 
 <h3>DISTINCT</h3>
 
 Lo empleamos para elegir sin repetidos, es decir, que sólo aparezca una vez.
