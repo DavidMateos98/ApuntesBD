@@ -1,10 +1,10 @@
  <h1>SQL</h1>
   <h1>Índice</h1>
   <a href="#intro">Introducción</a>
-  <a href="#funsel">Introducción</a>
-  <a href="#funfro">Introducción</a>
-  <a href="#prewhe">Introducción</a>
-  <a href="#otros">Introducción</a>
+  <a href="#funsel">Funciones SELECT</a><br>
+  <a href="#funfro">Funciones FROM</a><br>
+  <a href="#prewhe">Predicados WHERE</a>
+  <a href="#otros">Otros predicados</a>
  
 
  <h2 name="intro">INTRODUCCIÓN</h2>
