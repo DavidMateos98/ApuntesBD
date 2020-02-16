@@ -41,7 +41,8 @@ Si queremos introducir 1 caracter usamos _.
 BETWEEN
 
 Crea un rango entre dos valores. 
-Ej: WHERE populatrion BETWEEN 2000 AND 2500; nos devuelve las tuplas cuya población sea entre 2000 y 2500.
+Ej: WHERE population BETWEEN 2000 AND 2500; nos devuelve las tuplas cuya población sea entre 2000 y 2500.
+AND nos obliga a la presencia de los dos valores, mientras que OR solo precisa la presencia de uno de ellos.
 
 
 OTROS PREDICADOS
@@ -66,6 +67,12 @@ CONCAT
 Permite unir dos o más cadenas o campos. 
 Ej:
 CONCAT(name,' city') añadiría a todos los nombres de las ciudades la cadena " city"
+
+ROUND
+
+En ROUND (f,d) Arredondea la unidad f al numero d de décimas.
+Ej: ROUND(250000/240,2) nos ejecutaría la división con dos decimales visibles.
+
 
 
 
